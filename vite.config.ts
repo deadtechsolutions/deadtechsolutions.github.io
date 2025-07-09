@@ -7,5 +7,7 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
+    target: 'es2015',
+    minify: 'esbuild',
   },
 })
