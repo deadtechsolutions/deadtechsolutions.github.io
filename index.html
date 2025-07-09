@@ -1,86 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dead Tech Solutions</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 40px; 
-            background: #1a1a1a; 
-            color: #fff; 
-            line-height: 1.6;
-        }
-        .container { 
-            max-width: 800px; 
-            margin: 0 auto; 
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 20px;
-        }
-        .project { 
-            background: #2a2a2a; 
-            padding: 20px; 
-            margin: 20px 0; 
-            border-radius: 8px;
-            border-left: 4px solid #4CAF50;
-        }
-        .project h3 { 
-            color: #4CAF50; 
-            margin-top: 0;
-        }
-        a { 
-            color: #4CAF50; 
-            text-decoration: none; 
-        }
-        a:hover { 
-            text-decoration: underline; 
-        }
-        .github-link {
-            display: inline-block;
-            background: #333;
-            padding: 8px 16px;
-            border-radius: 4px;
-            margin-top: 10px;
-        }
-        .tech-stack {
-            color: #888;
-            font-size: 0.9em;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Dead Tech Solutions</h1>
-            <p>Professional embedded systems development and reverse engineering solutions</p>
-        </div>
-        
-        <div class="project">
-            <h3>Midea AC IR Decoder & ESP-IDF Generator</h3>
-            <p>A comprehensive infrared signal decoder for Midea air conditioners with automatic ESP-IDF C code generation. Features protocol analysis, batch processing, and hardware-ready templates for ESP32-C6 microcontrollers.</p>
-            <div class="tech-stack">
-                <strong>Tech Stack:</strong> Python, ESP-IDF, C, IR Protocol Analysis, Logic Analyzer Integration
-            </div>
-            <a href="https://github.com/deadtechsolutions/IR-decoder" target="_blank" class="github-link">View Project on GitHub →</a>
-        </div>
-        
-        <div class="project">
-            <h3>More Projects Coming Soon...</h3>
-            <p>This portfolio will expand with additional embedded systems projects, reverse engineering tools, and hardware solutions.</p>
-            <div class="tech-stack">
-                <strong>Focus Areas:</strong> Embedded Systems, IoT, Protocol Analysis, Hardware Reverse Engineering
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 40px; color: #666; font-size: 0.9em;">
-            <p>&copy; 2025 Orpheus Johansson (deadtechsolutions) | Dead Tech Solutions</p>
-        </div>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/DeadTechIcon_transparant.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead Tech Solutions - Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
